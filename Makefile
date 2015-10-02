@@ -26,7 +26,7 @@ define Package/luci-app-adbyby/description
 adbyby.
 endef
 
-define Package/luci-app-qos-adbyby/postinst
+define Package/luci-app-adbyby/postinst
 #!/bin/sh
 [ -n "" ] || {
 	( . /etc/uci-defaults/luci-adbyby) && rm -f /etc/uci-defaults/luci-adbyby
