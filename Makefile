@@ -17,13 +17,13 @@ define Package/luci-app-adbyby
   SECTION:=LuCI
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  TITLE:=adbyby.
+  TITLE:=Luci support for adbyby.
   DEPENDS:=+luci +libstdcpp +wget +kmod-nls-utf8
   PKGARCH:=all
 endef
 
 define Package/luci-app-adbyby/description
-adbyby.
+	Luci support for adbyby,only chinese.
 endef
 
 define Package/luci-app-adbyby/postinst
